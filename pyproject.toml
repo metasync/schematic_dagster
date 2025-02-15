@@ -6,7 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     # Dagster dependencies
-    "dagster==1.9.13",
+    # "dagster==1.9.13",
+    "dagster==1.10.1",
     "dagster-postgres",
     "dagster-k8s",
     "dagster-graphql",
