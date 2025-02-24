@@ -4,6 +4,8 @@
   * Enhanced make script to build with proper tags based on:
     * Dagster version
     * Project version
+  * Rendered pyproject.toml via
+  * Misc refactor
 
 ## [0.1.1] (2025-02-14)
 
