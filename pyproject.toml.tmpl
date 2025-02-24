@@ -1,0 +1,14 @@
+[project]
+name = "schematic-dagster"
+version = "0.1.2"
+description = "Schematic Dagster"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    # Dagster dependencies
+    "dagster==<<DAGSTER_VERSION>>",
+    "dagster-postgres",
+    "dagster-k8s",
+    "dagster-graphql",
+    "dagster-webserver",
+]
